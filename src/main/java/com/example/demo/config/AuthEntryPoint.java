@@ -16,8 +16,8 @@ public class AuthEntryPoint implements AuthenticationEntryPoint {
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response,
             AuthenticationException authException) throws IOException, ServletException {
-        response.setStatus(404);
-        response.getWriter().write("User not found");
+        response.setStatus(401);
+        response.getWriter().write("Unauthorized:AuthEntryPoint");
     }
 
 }

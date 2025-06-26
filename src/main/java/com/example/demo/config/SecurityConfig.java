@@ -48,6 +48,8 @@ public class SecurityConfig {
 
         // add exception handler
         httpSecurity.exceptionHandling(exceptionConfig -> exceptionConfig.authenticationEntryPoint(authEntryPoint));
+
+        
         return httpSecurity.build();
     }
 

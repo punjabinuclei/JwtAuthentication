@@ -2,10 +2,6 @@ package com.example.demo.util;
 
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Set;
-
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
@@ -52,13 +48,14 @@ public class JwtUtil {
     }
 
     // public static void main(String[] args) {
-    //     UserDetails user = new User("Gurpreet", "123", Set.of(new SimpleGrantedAuthority("ADMIN")));
-    //     JwtUtil jwtUtil = new JwtUtil();
-    //     String token = jwtUtil.generateToken(user);
-    //     System.err.println(token);
-    //     System.err.println(jwtUtil.extractUserNames(token));
-    //     System.err.println(jwtUtil.extractExpiry(token));
-    //     System.err.println(jwtUtil.validateToken(token, user));
+    // UserDetails user = new User("Gurpreet", "123", Set.of(new
+    // SimpleGrantedAuthority("ADMIN")));
+    // JwtUtil jwtUtil = new JwtUtil();
+    // String token = jwtUtil.generateToken(user);
+    // System.err.println(token);
+    // System.err.println(jwtUtil.extractUserNames(token));
+    // System.err.println(jwtUtil.extractExpiry(token));
+    // System.err.println(jwtUtil.validateToken(token, user));
 
     // };
 }
