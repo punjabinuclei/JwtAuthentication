@@ -19,7 +19,6 @@ public class ApplicationConfig {
     UserDetailsService userDetailsService;
 
     @Bean
-
     PasswordEncoder encoder() {
         return NoOpPasswordEncoder.getInstance();
     }

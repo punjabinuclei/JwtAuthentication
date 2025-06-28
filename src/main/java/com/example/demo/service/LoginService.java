@@ -20,7 +20,6 @@ public class LoginService {
     @Autowired
     UserDetailsService userDetailsService;
 
-    
     @Autowired
     JwtUtil jwtUtil;
 
